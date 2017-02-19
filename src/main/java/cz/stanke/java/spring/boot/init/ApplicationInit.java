@@ -19,10 +19,17 @@ package cz.stanke.java.spring.boot.init;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Spring boot application initializer.
+ */
 @SpringBootApplication
 public class ApplicationInit {
 
-    public static void main(String[] args) {
+    /**
+     * Runs the application.
+     * @param args from command line, e.g. --spring.profiles.active
+     */
+    public static void main(final String[] args) {
         SpringApplication.run(ApplicationInit.class, args);
     }
 }

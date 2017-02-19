@@ -66,6 +66,7 @@
                         <phase>verify</phase>
                         <configuration>
                             <consoleOutput>true</consoleOutput>
+                            <suppressionsLocation>src/checkstyle/checkstyle-suppressions.xml</suppressionsLocation>
                         </configuration>
                         <goals>
                             <goal>check</goal>
